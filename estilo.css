@@ -1,0 +1,164 @@
+* {
+    font-family: sans-serif;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+/**CSS para javascript**/
+.negrita {
+    font-weight: 700;
+}
+.display_block {
+    display: block;
+}
+.display_none {
+    display: none;
+}
+/**header**/
+.header {
+    background-color: #eee;
+    display: flex;
+    justify-content: none;
+    padding-top: 10px;
+}
+.header * {
+    background-color: #eee;
+}
+.header__logo-section {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 85px;
+    grid-template-rows: repeat(2, 26px);
+    margin-left: 2px;
+    margin: auto;
+}
+.header__logo-section__img {
+    width: 25px;
+    height: 25px;
+    margin: auto;
+}
+.header__text-section {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    margin-left: 10px;
+    flex-wrap: wrap;
+}
+.header-right__p{
+    min-width: 80px;
+    text-align: center;
+    margin: auto;
+} 
+
+
+
+
+/**main**/
+main {
+    background: radial-gradient(circle, #fff, #bbb);
+    padding-top: 20px;
+    width: 100%;
+}
+.programo {
+    width: 80%;
+}
+
+/**grupo**/
+/**celular**/
+@media (max-width: 768px){
+    .grupo-section {
+        margin: 0 2.5%;
+        background: radial-gradient(circle, #fff, #bbb);
+        width: 98%;
+    }
+    .grupo-section__text {
+        padding-bottom: 10px;
+    }
+    .grupo-section__picture__img {
+        width: 100%;
+    }
+}
+/**Tablet y Escritorio**/
+@media (min-width: 768px) {
+    .header__text-section {
+        margin-left: 37%;
+    }
+    .grupo-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        background: radial-gradient(circle, #fff, #bbb);
+    }
+    .grupo-section__picture {
+        width: 45vw;
+        order: 1;
+    }
+    .grupo-section__picture__img {
+        width: 100%;
+    }
+    .grupo-section__text {
+        width: 45vw;
+        order: 2;
+        margin-left: 20px;
+    }
+}
+
+
+/**contacto**/
+#formulario {
+    margin: 0 auto;
+    margin: 0 2.5%;
+    background-color: #222;
+    background: radial-gradient(circle, #fff, #bbb);
+    padding: 20px ;
+}
+#formulario * {
+    display: block;
+    width: 100%;
+}
+.form__input {
+    margin: 0 auto;
+    border: none;
+    border-bottom: 3px solid #094 ;
+    background: transparent;
+    padding: 7px;
+    resize: none;
+    color: #fff;
+    margin-top: 2%;
+}
+.form__input:focus {
+    background: linear-gradient(to bottom, transparent, #111);
+    background: linear-gradient(to bottom, transparent, #eee);
+    outline: none;
+    border-bottom: 3px solid #5f9;
+}
+.form__h2 {
+    text-align: center;
+}
+.form__button {
+    background-color: #094;
+    border: none;
+    margin-top: 2.5%;
+    color: #fff;
+    padding: 12px;
+    width: 100%;
+}
+.form__button:hover {
+    background-color: #072;
+}
+.form__button:focus {
+    background-color: #094;
+}
+.form__button:active {
+    background: linear-gradient(to bottom, #072, #050);
+}
+
+/**Footer**/
+.footer {
+    background-color: #888;
+    padding: 5px;
+}
+.footer__nav {
+    margin-left: 2.5%;
+}

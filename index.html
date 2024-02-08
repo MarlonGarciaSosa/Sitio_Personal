@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="codigo.js"></script>
+    <title>Sitios personal</title>
+</head>
+<body>
+
+    <header class="header">
+
+        <section class="header__logo-section">
+            <img class="header__logo-section__img" src="Logo.png">
+            <p class="header__logo-section__p">ZilmakWeb</p>
+        </section>
+
+        <section class="header__text-section">
+        <p class="header-right__p negrita"  id="grupo" onclick="grupo()">grupo</p>
+        <p class="header-right__p" id="quién_soy" onclick="quién_soy()">quién soy</p>
+        <p class="header-right__p" id="programo" onclick="programo()">programo</p>
+        <p class="header-right__p" id="diseño" onclick="diseño()">diseño</p>
+        <p class="header-right__p" id="contacto" onclick="contacto()">contacto</p>
+        </section>
+
+    </header>
+
+    <main id="grupo__main">
+
+        <section class="grupo-section">
+
+            <article class="grupo-section__text">
+                <h1 class="grupo-section__text__h1">ZilmakWeb</h1>
+                <p class="grupo-section__text__p">Somos un pequeño grupo de personas que se encuentra creciendo en el mundo del desarrollo de sitios web, nuestra misión es ayudar a las personas a sacar provecho de la digitalización mundial ya sea para conseguir trabajo, conseguir clientes, transmitir ideas y emociones, o automatizar procesos.</p>                
+            </article>
+
+            <article class="grupo-section__picture">
+                <img class="grupo-section__picture__img" src="grupo1.jpg">
+            </article>
+
+        </section>
+
+    </main>
+
+    <main id="quién_soy__main" class="display_none">
+
+        <section class="grupo-section">
+
+            <article class="grupo-section__text">
+                <h1>MARLON GARCÍA SOSA</h1>
+                <p>Nací en La Habana. Soy programador front-end, diseñador de interfaces gráficas de usuario, flautista y ajedrecista FIDE. Paso la mayor parte del tiempo estudiando programación o haciendo sitios web, aunque nunca me falta el tiempo para ejercitarme físicamente o prepararme para un torneo de ajedrez </p>
+            </article>
+
+            <article class="grupo-section__picture">
+                <img class="grupo-section__picture__img" src="quién_soy.jpg">
+            </article>
+
+        </section>
+
+    </main>
+
+    <main id="programo__main" class="display_none">
+
+        <section class="grupo-section">
+
+            <article class="grupo-section__text">
+                <h1>Programador front-end</h1>
+                <p>Soy fanático a la programación, actualmente cuento con un buen dominio de HTML, CSS y Javascript, lo que me permite crear estos sitios web sin consultar información externa, estuve hoy 31/1/2024 revisando los pre-procesadores y empaquetadores, me dejo bastante emocionado lo que se puede hacer con ellos, muy pronto los estaré usando (SCSS)(Parcel)</p>
+            </article>
+
+            <article class="grupo-section__picture">
+                <img class="grupo-section__picture__img programo" src="html.jpg">
+                <img class="grupo-section__picture__img programo" src="css.jpg">
+                <img class="grupo-section__picture__img programo" src="javascript.jpg">
+            </article>
+
+        </section>
+
+    </main>
+
+    <main id="diseño__main" class="display_none">
+
+        <section class="grupo-section">
+
+            <article class="grupo-section__text">
+                <h1>Diseñador GUI</h1>
+                <p>He tomado varios cursos UI/UX para crear sitios visualmente atractivo sin abandonar el minimalismo, sitios que pueden cumplir eficazmente su objetivo. Como herramienta de diseño uso Figma para tener una previsualización de lo que voy a hacer y mostrarle a los clientes para que sepan mejor como quieren modificar su sitio web</p>
+            </article>
+
+            <article class="grupo-section__picture">
+                <img class="grupo-section__picture__img" src="diseño.jpg">
+            </article>
+
+        </section>
+
+    </main>
+
+    <main id="contacto__main" class="display_none">
+
+        <form id="formulario">
+            <input autocomplete="off" placeholder="Escriba su gmail" class="form__input" type="email" name="email" id="email">
+            <input autocomplete="off" placeholder="Escriba el asunto" class="form__input" type="text" name="subject" id="subject">
+            <textarea autocomplete="off" placeholder="Escriba un mensaje a Marlon García" class="form__input" name="comments" cols="20" rows="5"></textarea>
+            <button type="submit" value="Enviar" class="form__button">Enviar</button>
+        </form>
+
+    </main>
+
+    <footer class="footer">
+
+        <nav class="footer__nav">
+            <p class="footer__nav__p">Presione para ver mi:
+                <a class="footer__nav__p__a" href="https://marlongarciasosa.github.io/Portafolio/">Portafolio</a>
+                <a class="footer__nav__p__a" href="https://marlongarciasosa.github.io/Curriculum/">Currículum</a>
+            </p>
+        </nav>
+
+    </footer>
+
+</body>
+</html>
