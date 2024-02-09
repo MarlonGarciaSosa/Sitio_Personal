@@ -62,6 +62,9 @@ main {
 .programo {
     width: 80%;
 }
+.grupo-section__text__p {
+    text-align: justify;
+}
 
 /**grupo**/
 /**celular**/
@@ -73,6 +76,7 @@ main {
     }
     .grupo-section__text {
         padding-bottom: 10px;
+        width: 95vw;
     }
     .grupo-section__picture__img {
         width: 100%;
