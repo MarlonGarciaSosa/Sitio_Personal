@@ -79,7 +79,7 @@ main {
         width: 95vw;
     }
     .grupo-section__picture__img {
-        width: 100%;
+        width: 95vw;
     }
 }
 /**Tablet y Escritorio**/
@@ -126,9 +126,9 @@ main {
     border: none;
     border-bottom: 3px solid #094 ;
     background: transparent;
-    padding: 7px;
+    padding: 7px 0;
     resize: none;
-    color: #fff;
+    color: #000;
     margin-top: 2%;
 }
 .form__input:focus {
