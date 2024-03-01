@@ -166,3 +166,199 @@ main {
 .footer__nav {
     margin-left: 2.5%;
 }
+
+/**animación**/
+
+#logo {
+    animation-name: desplazarse-logo;
+    animation-duration: 2000ms;
+    animation-delay: 0;
+}
+
+@keyframes desplazarse-logo {
+    from {
+        position: relative;
+        left: -100px;
+    }
+    to {
+        left: 100px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 495px) {
+    #grupo {
+        animation-name: desplazarse-grupo;
+        animation-duration: 2000ms;
+        animation-delay: 0;
+    }
+    #quién_soy {
+        animation-name: desplazarse-quién_soy;
+        animation-duration: 2400ms;
+        animation-delay: 0;
+    }
+    #programo {
+        animation-name: desplazarse-programo;
+        animation-duration: 2800ms;
+        animation-delay: 0;
+    }
+    #diseño {
+        animation-name: desplazarse-diseño;
+        animation-duration: 3200ms;
+        animation-delay: 0;
+    }
+    #contacto {
+        animation-name: desplazarse-contacto;
+        animation-duration: 3600ms;
+        animation-delay: 0;
+    }
+    
+    @keyframes desplazarse-grupo {
+        from {
+            position: relative;
+            top: -50px;
+        }
+        to {
+            top: 50px;
+        }
+    }
+    @keyframes desplazarse-quién_soy {
+        from {
+            position: relative;
+            top: -50px;
+        }
+        to {
+            top: 50px;
+        }
+    }
+    @keyframes desplazarse-programo {
+        from {
+            position: relative;
+            top: -50px;
+        }
+        to {
+            top: 50px;
+        }
+    }
+    @keyframes desplazarse-diseño {
+        from {
+            position: relative;
+            top: -50px;
+        }
+        to {
+            top: 50px;
+        }
+    }
+    @keyframes desplazarse-contacto {
+        from {
+            position: relative;
+            top: -50px;
+        }
+        to {
+            top: 50px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 495px) {
+    #grupo {
+        animation-name: desplazarse-grupo;
+        animation-duration: 3600ms;
+        animation-delay: 0;
+    }
+    #quién_soy {
+        animation-name: desplazarse-quién_soy;
+        animation-duration: 3200ms;
+        animation-delay: 0;
+    }
+    #programo {
+        animation-name: desplazarse-programo;
+        animation-duration: 2800ms;
+        animation-delay: 0;
+    }
+    #diseño {
+        animation-name: desplazarse-diseño;
+        animation-duration: 2400ms;
+        animation-delay: 0;
+    }
+    #contacto {
+        animation-name: desplazarse-contacto;
+        animation-duration: 2000ms;
+        animation-delay: 0;
+    }
+    
+    @keyframes desplazarse-grupo {
+        from {
+            position: relative;
+            top: -50px;
+        }
+        to {
+            top: 50px;
+        }
+    }
+    @keyframes desplazarse-quién_soy {
+        from {
+            position: relative;
+            top: -50px;
+        }
+        to {
+            top: 50px;
+        }
+    }
+    @keyframes desplazarse-programo {
+        from {
+            position: relative;
+            top: -50px;
+        }
+        to {
+            top: 50px;
+        }
+    }
+    @keyframes desplazarse-diseño {
+        from {
+            position: relative;
+            top: -50px;
+        }
+        to {
+            top: 50px;
+        }
+    }
+    @keyframes desplazarse-contacto {
+        from {
+            position: relative;
+            top: -50px;
+        }
+        to {
+            top: 50px;
+        }
+    }
+}
